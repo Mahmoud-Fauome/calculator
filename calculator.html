@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styel/bootstrap.css" />
+    <link rel="stylesheet" href="styel/calculator.css" />
+    <title>Document</title>
+  </head>
+  <body class="d-flex justify-content-center mt-5">
+    <div
+      style="width: 18em"
+      class="rounded-3 pb-3 mt-3 bg-secondary text-center d-flex flex-column align-items-center"
+    >
+      <div>
+        <input
+          class="bg-warning mt-3 mb-2 padding result rounded border"
+          type="text"
+        />
+        <input class="rounded inpute mb-3 border" type="text" />
+      </div>
+      <div class="d-flex">
+        <div class="d-flex flex-column">
+          <button
+            class="bt-radious ps-3 pe-3 fs-1 m-1 del bg-danger text-light"
+          >
+            c
+          </button>
+          <button
+            data-num="6"
+            class="btn-outline-warning text-dark bt-radious m-1 ps-3 pe-3 fs-1 bts"
+          >
+            6
+          </button>
+          <button
+            data-num="2"
+            class="btn-outline-warning text-dark bt-radious m-1 ps-3 pe-3 fs-1 bts"
+          >
+            2
+          </button>
+          <button
+            data-oper="."
+            class="btn-outline-warning text-dark bt-radious m-1 ps-4 pe-3 fs-1 operator"
+          >
+            .
+          </button>
+        </div>
+        <div class="d-flex flex-column">
+          <button
+            data-num="9"
+            class="btn-outline-warning text-dark bt-radious m-1 ps-3 pe-3 fs-1 bts"
+          >
+            9
+          </button>
+          <button
+            data-num="5"
+            class="btn-outline-warning text-dark bt-radious m-1 ps-3 pe-3 fs-1 bts"
+          >
+            5
+          </button>
+          <button
+            data-num="1"
+            class="btn-outline-warning text-dark bt-radious m-1 ps-3 pe-3 fs-1 bts"
+          >
+            1
+          </button>
+          <button
+            data-oper="+"
+            class="btn-outline-warning text-dark bt-radious m-1 ps-3 pe-3 fs-1 operator"
+          >
+            +
+          </button>
+        </div>
+        <div class="d-flex flex-column">
+          <button
+            data-num="8"
+            class="btn-outline-warning text-dark bt-radious m-1 ps-3 pe-3 fs-1 bts"
+          >
+            8
+          </button>
+          <button
+            data-num="4"
+            class="btn-outline-warning text-dark bt-radious m-1 ps-3 pe-3 fs-1 bts"
+          >
+            4
+          </button>
+          <button
+            data-num="0"
+            class="btn-outline-warning text-dark bt-radious m-1 ps-3 pe-3 fs-1 bts"
+          >
+            0
+          </button>
+          <button
+            data-oper="*"
+            class="btn-outline-warning text-dark bt-radious m-1 ps-3 pe-3 fs-1 operator"
+          >
+            *
+          </button>
+        </div>
+        <div class="mb-3 d-flex flex-column">
+          <button
+            data-num="7"
+            class="btn-outline-warning text-dark bt-radious m-1 ps-3 pe-3 fs-1 bts"
+          >
+            7
+          </button>
+
+          <button
+            data-num="3"
+            class="btn-outline-warning text-dark bt-radious m-1 ps-3 pe-3 fs-1 bts"
+          >
+            3
+          </button>
+          <button
+            data-oper="-"
+            class="btn-outline-warning text-dark bt-radious m-1 ps-3 pe-3 fs-1 operator"
+          >
+            -
+          </button>
+          <button
+            data-oper="/"
+            class="btn-outline-warning text-dark bt-radious m-1 ps-3 pe-3 fs-1 operator"
+          >
+            /
+          </button>
+        </div>
+      </div>
+      <div>
+        <button
+          class="rounded-pill btn-outline-danger text-dark bt-radious m-1 ps-3 pe-3 fs-1 remove"
+        >
+          del
+        </button>
+        <button
+          class="rounded-pill bt-radious ps-5 pe-5 fs-1 m-1 bg-warning text-light equal"
+        >
+          =
+        </button>
+      </div>
+    </div>
+    <script src="calculator.js"></script>
+  </body>
+</html>
